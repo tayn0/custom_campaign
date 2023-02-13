@@ -1,0 +1,35 @@
+[MissionInfo]
+countISDF = 1
+countScion = 0
+
+[ISDF 1]
+missionTitle = "This is Not a Test"
+missionInfo = "isdf01.des"
+missionFile = "isdf01.bzn"
+planetName = "Dark Planet"
+planetInfo = "dark.des"
+planetGeom = "dark.fbx"
+preBriefMovie = ""
+
+techCount = 2
+techName1 = "ISDF Missile Scout"
+techInfo1 = "ivmisl.inf"
+techGeom1 = "ivmisl00.fbx"
+techName2 = "ISDF Missle Scout"
+techInfo2 = "ivmisl.inf"
+techGeom2 = "ivmisl00.fbx"
+
+mailCount = 2
+mailName1 = "General Braddock"
+mailInfo1 = "isdf01_m1.des"
+mailGeom1 = ""
+mailWave1 = "mes0101.wav"
+mailName2 = "Commander Shabayev"
+mailInfo2 = "isdf01_m2.des"
+mailGeom2 = ""
+mailWave2 = "mes0102.wav"
+
+briefInfo = "isdf01.brf"
+
+launchMessage = ""
+launchBackground = "dark_load.tga"
