@@ -15,12 +15,12 @@ local M = {
 } --End Mission
 
 function Save()
-   return M
+   return Mission
 end
 
 function Load(...)
    if select("#", ...) > 0 then
-      M = ...
+      Mission = ...
    end
 end
 
@@ -42,22 +42,21 @@ function DeleteObject(h) --This function is called when an object is deleted in 
 end
 
 function InitialSetup()
-	Mission.TPS = EnableHighTPS()
-	AllowRandomTracks(true)
+Mission.TPS = EnableHighTPS()
+AllowRandomTracks(true)
 end
 
 
 
 function Update() --This function runs on every frame.
+Mission.TurnCounter = Mission.TurnCounter + 1
 
-	M.TurnCounter = M.TurnCounter + 1
-
-	missionCode() --Calling our missionCode function in Update.
+missionCode() --Calling our missionCode function in Update.
 end
 
 function missionCode() --
 
-	M.player = GetPlayerHandle()
+	Mission.player = GetPlayerHandle()
 	
 
 
