@@ -42,7 +42,7 @@ function DeleteObject(h) --This function is called when an object is deleted in 
 end
 
 function InitialSetup()
-	Mission.TPS = EnableHighTPS()
+	M.TPS = EnableHighTPS()
 	AllowRandomTracks(true)
 end
 
