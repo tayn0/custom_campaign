@@ -11,6 +11,15 @@ References:
 ]] --
 local M = {
 
+	--bools
+	
+	
+	
+	--handles
+	player,
+	
+	--floats
+	TurnCounter = 0
    
 } --End Mission
 

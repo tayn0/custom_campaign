@@ -1,16 +1,18 @@
 --[[
 
-THIS IS A TEST
-Event Scripting: 
-Ported to LUA: 
-Date: 7-11-2021
-Description: Campagin mission  ported to LUA
-References:
-1. https:--steamcommunity.com-sharedfiles-filedetails-?id=1488402495
-2. https:www.lua.org-docs.html
+ISDF01
 ]] --
 local M = {
 
+	--bools
+	
+	
+	
+	--handles
+	player,
+	
+	--floats
+	TurnCounter = 0
    
 } --End Mission
 
