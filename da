@@ -1,0 +1,113 @@
+[1mdiff --git a/isdf01/Backup Terrain/isdf01 - Copy.SKY b/isdf01/Backup Terrain/isdf01 - Copy.SKY[m
+[1mnew file mode 100644[m
+[1mindex 0000000..cbd2375[m
+Binary files /dev/null and b/isdf01/Backup Terrain/isdf01 - Copy.SKY differ
+[1mdiff --git a/isdf01/Backup Terrain/isdf01 - Copy.TER b/isdf01/Backup Terrain/isdf01 - Copy.TER[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fe8b2d1[m
+Binary files /dev/null and b/isdf01/Backup Terrain/isdf01 - Copy.TER differ
+[1mdiff --git a/isdf01/Backup Terrain/isdf01 - Copy.TRN b/isdf01/Backup Terrain/isdf01 - Copy.TRN[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1666bea[m
+[1m--- /dev/null[m
+[1m+++ b/isdf01/Backup Terrain/isdf01 - Copy.TRN[m	
+[36m@@ -0,0 +1,23 @@[m
+[32m+[m[32m[Texture][m
+[32m+[m[32mTileTexture1="dark.tga"[m
+[32m+[m[32mTileTexture2="dark2.tga"[m
+[32m+[m[32mTileTexture3="core_4.tga"[m
+[32m+[m[32m//TileTexture4="dospik00.pic"[m
+[32m+[m[32mTileTexture5="core_6.tga"[m
+[32m+[m[32mTileTexture6="dark.tga"[m
+[32m+[m
+[32m+[m[32m[NormalView][m
+[32m+[m[32mDiffuseColor = "150 150 200 255"[m
+[32m+[m[32mSpecularColor = "200 200 255"[m
+[32m+[m[32mSpecularPower = 1024[m
+[32m+[m
+[32m+[m
+[32m+[m[32m[DLL][m
+[32m+[m[32mCaptureIsRandom = false[m
+[32m+[m[32mCaptureTarget1 = "VSRcap1"[m
+[32m+[m[32mCaptureTarget2 = "VSRcap1"[m
+[32m+[m[32mCaptureTarget3 = "VSRcap1"[m
+[32m+[m[32mCaptureTarget4 = "VSRcap5"[m
+[32m+[m[32mCaptureTarget5 = "VSRcap5"[m
+[32m+[m[32mCaptureTarget6 = "VSRcap5"[m
+[32m+[m[32mCaptureTarget7 = "VSRcap5"[m
+\ No newline at end of file[m
+[1mdiff --git a/isdf01/Backup Terrain/isdf01 - Copy.WAT b/isdf01/Backup Terrain/isdf01 - Copy.WAT[m
+[1mnew file mode 100644[m
+[1mindex 0000000..169590e[m
+Binary files /dev/null and b/isdf01/Backup Terrain/isdf01 - Copy.WAT differ
+[1mdiff --git a/isdf01/Backup Terrain/isdf01 - Copy.bzn b/isdf01/Backup Terrain/isdf01 - Copy.bzn[m
+[1mnew file mode 100644[m
+[1mindex 0000000..20d8877[m
+[1m--- /dev/null[m
+[1m+++ b/isdf01/Backup Terrain/isdf01 - Copy.bzn[m	
+[36m@@ -0,0 +1,1963 @@[m
+[32m+[m[32mversion [1] =[m
+[32m+[m[32m1192[m
+[32m+[m[32msaveType [1] =[m
+[32m+[m[32m0[m
+[32m+[m[32mbinarySave [1] =[m
+[32m+[m[32mfalse[m
+[32m+[m[32mmsn_filename = isdf01.bzn[m
+[32m+[m[32mseq_count [1] =[m
+[32m+[m[32m73[m
+[32m+[m[32msaveType [1] =[m
+[32m+[m[32m0[m
+[32m+[m[32mg_TerrainName = isdf01[m
+[32m+[m[32msize [1] =[m
+[32m+[m[32m19[m
+[32m+[m[32m[GameObject][m
+[32m+[m[32mobjClass = player[m
+[32m+[m[32mseqno [1] =[m
+[32m+[m[32m800001[m
+[32m+[m[32mteam [1] =[m
+[32m+[m[32m17[m
+[32m+[m[32misUser [1] =[m
+[32m+[m[32mtrue[m
+[32m+[m[32mobjAddr = 00000001[m
+[32m+[m[32mtransform [1] =[m
+[32m+[m[32m  right.x [1] =[m
+[32m+[m[32m9.86175358e-01[m
+[32m+[m[32m  right.y [1] =[m
+[32m+[m[32m-8.92541558e-03[m
+[32m+[m[32m  right.z [1] =[m
+[32m+[m[32m1.65408224e-01[m
+[32m+[m[32m  up.x [1] =[m
+[32m+[m[32m2.56437454e-02[m
+[32m+[m[32m  up.y [1] =[m
+[32m+[m[32m9.94729280e-01[m
+[32m+[m[32m  up.z [1] =[m
+[32m+[m[32m-9.92077440e-02[m
+[32m+[m[32m  front.x [1] =[m
+[32m+[m[32m-1.63658231e-01[m
+[32m+[m[32m  front.y [1] =[m
+[32m+[m[32m1.02079488e-01[m
+[32m+[m[32m  front.z [1] =[m
+[32m+[m[32m9.81210530e-01[m
+[32m+[m[32m  posit.x [1] =[m
+[32m+[m[32m-4.36542694e+02[m
+[32m+[m[32m  posit.y [1] =[m
+[32m+[m[32m6.12914391e+01[m
+[32m+[m[32m  posit.z [1] =[m
+[32m+[m[32m-3.96644165e+02[m
+[32m+[m[32mabandoned [1] =[m
+[32m+[m[32m0[m
+[32m+[m[32mcurAmmo [1] =[m
+[32m+[m[32m1.20000000e+03[m
+[32m+[m[32mmaxAmmo [1] =[m
+[32m+[m[32m1.20000000e+03[m
+[32m+[m[32maddAmmo [1] =[m
+[32m+[m[32m5.00000000e+00[m
+[32m+[m[32mcurPilot = psuser[m
+[32m+[m[32millumination [1] =[m
+[32m+[m[32m1.00000000e+00[m
+[32m+[m[32meuler =[m
+[32m+[m[32m mass [1] =[m
+[32m+[m[32m1.30762100e+04[m
+[32m+[m[32m mass_inv [1] =[m
+[32m+[m[32m7.64747601e-05[m
+[32m+[m[32m v_mag [1] =[m
